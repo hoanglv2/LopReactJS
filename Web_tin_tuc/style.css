@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+.container{
+    max-width: 380px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+h2.title{
+    font-size: 14px;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.content{
+    display: flex;
+}
+
+.content img{
+    width: 120px;
+    flex-grow: 1;
+}
+
+.content .news-description{
+    flex-grow: 2;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.news-list{
+    font-size: 14px;
+    list-style-type: square;
+    padding-left: 20px;
+}
