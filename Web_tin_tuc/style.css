@@ -6,7 +6,7 @@
 
 .container{
     max-width: 380px;
-    margin: 0 auto;
+    margin: 20px auto;
     line-height: 1.5;
 }
 
@@ -32,6 +32,11 @@ h2 a{
     flex-grow: 2;
     font-size: 14px;
     padding-left: 10px;
+}
+
+.location{
+    text-decoration: none;
+    color: #777;
 }
 
 .news-list{
