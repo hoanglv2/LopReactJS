@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 54px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 22px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* ========HEADER======= */
+header{
+    display: flex;
+}
+.logo{
+    margin: 20px;
+}
+.logo img{
+    width: 32px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 400vh;
+}
+.menu a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: large;
+    color: #000;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+/* ======INTRO======= */
+.col-half{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px 100px;
+}
+.description{
+    width: 500px;
+}
+h1{
+    margin-bottom: 40px;
+}
+p{
+    font-size: large;
+    margin: 40px 0;
+}
+.register-btn{
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* ========Collaborative========== */
+#collaborative{
+    background-color: #e9eaf0;
+    text-align: center;
+}
+.center-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    margin: 30px 100px;
+    
+}
+.row img{
+    width: 350px;
+}
+.row p{
+    font-size: 15px;
+    text-align: left;
+}
+.center-register{
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* ======BENEFITS===== */
+
+.benefits img{
+    width: 600px;
+}
