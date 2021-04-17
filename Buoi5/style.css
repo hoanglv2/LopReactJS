@@ -5,13 +5,23 @@
 }
 body{
     max-width: 1777px;
+    margin: 0 auto;
 }
 h2{
     font-size: 50px;
     font-weight: 400;
+    color: #252B42;
+}
+h3{
+    color: #252B42;
 }
 h4{
     font-size: 31px;
+    color: #374754;
+}
+h6{
+    font-size: 12px;
+    color: #374754;
 }
 
 /* =======HEADER======== */
@@ -48,18 +58,21 @@ header{
 
 /* =======START======== */
 .start{
-    width: 1440px;
+    width: 812px;
     margin: 0 auto;
     color: #fff;
     text-align: center;
 }
 h1{
     font-size: 87px;
-    margin: 20px 313px;
+    margin: 20px 0;
 }
-.start h4{
-    font-size: 31px;
-    margin: 0 343px;
+.start h4, .pricing h4, .pricing h2{
+    color: #fff;
+}
+.start-btn{
+    width: 236px;
+    margin: 50px auto;
 }
 .try-for-free{
     display: inline-block;
@@ -79,7 +92,7 @@ h1{
 #content{
     margin-top: 50px;
 }
-.features-top{
+.text-center{
     width: 540px;
     margin: 0 auto;
     text-align: center;
@@ -88,7 +101,7 @@ h1{
     font-size: 50px;
     font-weight: 400;
 } */
-.features-top h4{
+.text-center h4{
     margin: 30px 0;
     font-weight: normal;
 }
@@ -119,6 +132,98 @@ h1{
 .organize{
     width: 1231px;
     margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ==========PROTOTYPING========= */
+.prototyping{
+    width: 1440px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.pro-text{
+    margin: 50px;
+    width: 544px;
+}
+.pro-text h2{
+    width: 305px;
+}
+.action-content{
+    padding-top: 30px;
+}
+.action-content form{
+
+}
+.action-content input{
+    width: 273px;
+    height: 54px;
+    border-radius: 39px;
+    background: #F4F4F4;
+    border: 1px solid #E8E8E8;
+    padding: 19px 39px;
+}
+.action-content a{
+    width: 172px;
+}
+
+/* ======PARTNERS===== */
+.partners{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.client{
+    width: 1075px;
+    margin: 80px auto;
+}
+
+.client-1, .client-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.client-1 div, .client-2 div{
+    padding: 30px;
+    border: 1px solid  #D8D8D8;
+}
+
+/* =====TESTIMONIALS======= */
+.testimonials{
+    width: 1440px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.ibm{
+    width: 975px;
+    margin: 80px auto 0 auto;
+}
+.client-ui{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-ui p{
+    font-size: 12px;
+    text-align: left;
+}
+/* =====PRICING======= */
+.pricing{
+    width: 1440px;
+    margin: 0 auto;
+    background: #252B42;
+    padding: 100px 0;
+}
+.pricing-content{
+    width: 539px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.pricing-img{
+    width: 1105px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
