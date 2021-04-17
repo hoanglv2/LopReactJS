@@ -3,6 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 1777px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 400;
+}
 h4{
     font-size: 31px;
 }
@@ -54,7 +61,7 @@ h1{
     font-size: 31px;
     margin: 0 343px;
 }
-.start a{
+.try-for-free{
     display: inline-block;
     margin-top: 40px;
     font-size: 20px;
@@ -77,10 +84,10 @@ h1{
     margin: 0 auto;
     text-align: center;
 }
-.features-top h2{
+/* .features-top h2{
     font-size: 50px;
     font-weight: 400;
-}
+} */
 .features-top h4{
     margin: 30px 0;
     font-weight: normal;
@@ -107,4 +114,12 @@ h1{
     display: block;
     margin: 0 auto;
     width: 1177px;
+}
+
+.organize{
+    width: 1231px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
