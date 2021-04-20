@@ -1,10 +1,10 @@
-var a = prompt("Nhap so a:")
-var b = prompt("Nhap so b:")
-var c = prompt("Nhap so c:")
+var a = prompt("Nhập số a:")
+var b = prompt("Nhập số b:")
+var c = prompt("Nhập số c:")
 var delta = b*b-(4*a*c)
 
 if (isNaN(a) || isNaN(b) || isNaN(c)) {
-    alert("Hay nhap vao so!")
+    alert("Hãy nhập vào số!")
 }
 else if(a == 0) {
     if(b == 0){
