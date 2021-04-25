@@ -1,7 +1,7 @@
-var a = prompt("Nhập số a:")
-var b = prompt("Nhập số b:")
-var c = prompt("Nhập số c:")
-var delta = b*b-(4*a*c)
+let a = prompt("Nhập số a:")
+let b = prompt("Nhập số b:")
+let c = prompt("Nhập số c:")
+let delta = b*b-(4*a*c)
 
 if (isNaN(a) || isNaN(b) || isNaN(c)) {
     alert("Hãy nhập vào số!")

@@ -7,25 +7,39 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1">
-        <tr>
-            <th>Columu1</th>
-            <th>Columu2</th>
-            <th>Columu3</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Row 1 Cell 1</td>
-            <td>Row 1 Cell 2</td>
-            <td>Row 1 Cell 3</td>
-        </tr>
-        <tr>
-            
-            <td>Row 2 Cell 2</td>
-            <td>Row 2 Cell 3</td>
-        </tr>
-        <tr>
-            <td colspan="3">Row 3 Cell 1</td>
-        </tr>
-    </table>
+    <h1>Object tutorial</h1>
+    <button onclick="OpenWeb()">Open Gokisoft</button>
+    <script type="text/javascript">
+        var std = {
+            ten: 'A',
+            'tuoi':20,
+            'diaChi': 'Ha Noi',
+            'email': 'hoanglevanpro@gmail.com',
+            'sdt':'0348297264'
+        }
+        console.log(std.ten)
+        console.log(std.tuoi)
+        console.log(std.diaChi)
+        std.diaChi = 'Nam Dinh'
+        console.log(std.diaChi)
+        console.log(std)
+
+        var arr1 = []
+
+        var arr2 = [1,3,8,5]
+        console.log(arr2)
+
+        arr1.push(32)
+        arr1.push(17)
+        arr1.push(21)
+        arr1.push(8)
+        arr1.push(2)
+        arr1.push(-21)
+        arr1.push(-7)
+        console.log(arr1)
+
+        arr1.splice(1,2)
+        console.log(arr1)
+    </script>
 </body>
 </html>
