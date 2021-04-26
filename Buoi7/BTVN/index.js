@@ -75,3 +75,59 @@ function soNguyenTo(){
         }
     }
 }
+
+// Câu 5
+let ketqua5 = document.getElementById("ketqua5")
+let tong = 0
+function tinhTong(){
+    let soN5 = document.getElementById("soN5").value;
+    console.log(soN5);
+    for(let i = 1; i <= soN5; i++){
+        tong = tong + i
+    }
+    ketqua5.innerHTML +=tong
+}
+
+// Câu 6
+let ketqua6 = document.getElementById("ketqua6")
+let tongBP = 0
+function tongBinhPhuong(){
+    let soN6 = document.getElementById("soN6").value;
+    console.log(soN6);
+    for(let i = 1; i <= soN6; i++){
+        tongBP = tongBP + i*i
+    }
+    ketqua6.innerHTML +=tongBP
+}
+
+// Câu 7
+let ketqua7 = document.getElementById("ketqua7")
+let tongLe = 0
+function tongSoLe(){
+    let soN7 = document.getElementById("soN7").value;
+    console.log(soN7);
+    for(let i = 1; i <= soN7; i+=2){
+        tongLe = tongLe + i
+    }
+    ketqua7.innerHTML +=tongLe
+}
+
+// Câu 8
+let ketqua8 = document.getElementById("ketqua8")
+let kiemTraLe = true
+
+function kiemTra(){
+    let soN8 = document.getElementById("soN8").value;
+    console.log(soN8);
+    let check = 'YES'
+    let a = String(soN8)
+    for(i = 0; i<a.length; i++){
+        if (a.charAt(i)%2==0){
+            check = 'NO'
+            break
+        }
+    } 
+    ketqua8.innerHTML +=` ${check}`
+}
+
+

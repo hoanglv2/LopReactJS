@@ -25,41 +25,57 @@
 //         console.log(i);
 //     }
     
-// }
-let soNguyenTo = 9
-function kiemTra(soNguyenTo){
-    let flag = true
-    if (soNguyenTo == 2) {
-        flag = true
-    }
-    else{
-        if (soNguyenTo % 2 ==0) {
-            flag = false
-        } else{
-        for (let index = 3; index <= Math.sqrt(soNguyenTo); index +=2) {
-            if (soNguyenTo % index == 0) {
-                flag = false
+// // }
+// let soNguyenTo = 9
+// function kiemTra(soNguyenTo){
+//     let flag = true
+//     if (soNguyenTo == 2) {
+//         flag = true
+//     }
+//     else{
+//         if (soNguyenTo % 2 ==0) {
+//             flag = false
+//         } else{
+//         for (let index = 3; index <= Math.sqrt(soNguyenTo); index +=2) {
+//             if (soNguyenTo % index == 0) {
+//                 flag = false
                 
-            } 
+//             } 
             
-        }
-    }
-}
-if (flag == true){
-    return true
-}
-else return false
-}
-let check = kiemTra(soNguyenTo)
+//         }
+//     }
+// }
+// if (flag == true){
+//     return true
+// }
+// else return false
+// }
+// let check = kiemTra(soNguyenTo)
 
-if (kiemTra(soNguyenTo) == true) {
-    console.log('Day la so nguyen to');
-}
-else{
-    console.log('Day khong phai so nguyen to')
-}
-// function hello(name, age, sex){
+// if (kiemTra(soNguyenTo) == true) {
+//     console.log('Day la so nguyen to');
+// }
+// else{
+//     console.log('Day khong phai so nguyen to')
+// }
+// // function hello(name, age, sex){
 //     alert(`Xin chao ${name} ${age} ${sex}`)
 // }
 // //function nếu có return vai trò giống như 1 biến
 // hello('Tung', 22, 'male')
+let so = 135
+function kiemTra(N){
+    let check = true
+    let a = String(N)
+    for(i = 0; i<a.length; i++){
+        if (a.charAt(i)%2==0){
+            check = false
+            break
+        }
+    } 
+    if (check == true) return true
+    else return false
+}
+if (kiemTra(so) == true)
+console.log('YES');
+else console.log('NO');
